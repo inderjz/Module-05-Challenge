@@ -2,6 +2,8 @@ body {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  color: black;
+  background-color: gray;
 }
 
 textarea {
@@ -14,9 +16,13 @@ textarea {
 }
 
 .save-container {
-  background-image: url(./img/img2.jpeg);
+  background-color: gray;
 }
 
+.save-container i:hover {
+  font-size: 40px;
+  transition: all .3s ease-in-out;
+}
 .main {
   text-align: center;
   background-color: transparent;
