@@ -3,7 +3,7 @@ function updateTime() {
     let today = moment();
 
     // updates the time element in the header
-    $("#currentDay").text(today.format("dddd, MMMM Do YYYY, h:mm.ss"));
+    $("#currentDay").text(today.format("dddd, MMMM Do YYYY"));
 
     // For coloring the past, present, and future time blocks
     let now = moment().format("kk");
